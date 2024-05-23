@@ -3,7 +3,7 @@ const app = express();
 const port = 5000;
 
 app.get('/api/hello', (req, res) => {
-    return res.status(200).json({ msg: "Hello, World!" });
+    return res.status(200).json({ msg: "Hello, ec2!" });
 });
 
 app.get('/api/hi', (req, res) => {
